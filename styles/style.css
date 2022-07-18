@@ -15,14 +15,17 @@ body {
 
 main {
 	display: flex;
-	/* flex-direction: column; */
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
 .container {
 	background-color: #FFFFFF;
 	width: 870px;
 	padding: 30px;
+	margin-top: 25px;
+	border-radius: 10px;
 }
 
 hr {
@@ -102,3 +105,30 @@ footer {
 	color: rgba(86, 46, 255, 1);
 }
 /* Top Blogs Style End */
+
+
+/* Courses Style Start */
+.course .course-banner img {
+	width: 224px;
+	height: 104px;
+}
+
+.course-detail .course-author a {
+	text-decoration: none;
+	color: rgba(237, 107, 79, 1);
+}
+.course-detail .course-info {
+	display: flex;
+	
+}
+.fa-star {
+	font-size: 12px;
+}
+.fa-star.filled {
+	color: rgba(255, 192, 20, 1);
+}
+
+.fa-star.empty {
+	color: rgba(174, 174, 174, 1);
+}
+/* Courses Style End */
